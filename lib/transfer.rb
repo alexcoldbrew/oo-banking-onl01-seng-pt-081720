@@ -17,9 +17,8 @@ class Transfer
     end
   end
   
-  def execute_transaction(amount)
-    @sender -= @amount
-    @receiver += @amount
+  def execute_transaction
+    
   end
   
   def reverse_transfer
